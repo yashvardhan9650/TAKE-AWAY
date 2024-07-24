@@ -1,0 +1,123 @@
+*{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    
+    background: url('https://img5.goodfon.com/wallpaper/nbig/9/df/eda-frukty-iagody-tarelka-nozh-vilka-klubnika-chernika-blueb.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+
+   
+
+}
+
+
+
+body::before{
+    content: " ";
+    /* background-color: black; */
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+position: absolute;
+margin: 0%;
+padding: 0px;
+opacity: .5;
+}
+
+header{
+ color: white;
+  /* background: black; */
+  height: 60%;
+  width: 30%;
+/* border: 1px solid white; */
+  
+}
+.page{
+    margin: 7%;
+
+}
+
+ 
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+#form input{
+    margin:3%;
+    font-size: 22px;
+    padding: 5px;
+    /* border-radius: 12px; */
+    background-color: transparent;
+    /* border: 2px solid antiquewhite; */
+    border: 2px solid antiquewhite;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: bisque;
+}
+
+h1{
+    font-weight: 1200;
+    font-size: 32px;
+}
+.form-post{
+    font-size: 23px;
+    margin: 0;
+
+}
+.btn{
+
+/* background-color: blue; */
+color: black;
+/* margin-left: 0%; */
+width: 100%;
+/* border: 2px solid black; */
+margin-left: 5rem;
+
+}
+.btn button{
+    font-size: 25px;
+    background-color: rgb(201, 198, 219);
+    color: white;
+    /* border: 2px solid rgb(18, 18, 181); */
+    border-radius: 12px;
+    margin: 12px;
+    padding: 9px;
+    color: black;
+    font-weight: 600;
+    width: 50%; 
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+}
+#new{
+    display: flex;
+    margin: auto;
+}
+.account{
+    /* align-items: flex-start; */
+    margin-left: 0%;
+}
+.forgot{
+    align-items: flex-end;
+    /* margin-right: 0%;*/
+   
+}
+.forgot a{
+ color: rgb(228, 228, 243);
+ text-decoration: none;
+ 
+ /* margin-left: 14rem; */
+ /* margin-top: 9rem; */
+}

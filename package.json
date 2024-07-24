@@ -1,0 +1,11 @@
+{
+  "name": "ghd",
+  "version": "1.0.0",
+  "description": "Watch it on youtube now... https://www.youtube.com/watch?v=GiWJQOin5dk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
